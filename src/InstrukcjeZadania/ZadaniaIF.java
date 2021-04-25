@@ -17,6 +17,7 @@ public class ZadaniaIF {
 				odpowiedz = "Tak";
 			else
 				odpowiedz = "Nie";
+			
 			System.out.println("\s" + "Liczba: " + liczba +" " + odpowiedz);
 		}
 		
