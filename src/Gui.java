@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 import InstrukcjeZadania.ZadaniaIF;
+import InstrukcjeZadania.ZadaniaSWITCH;
 
 public class Gui {
 	private int wybranyTemat = -1;
@@ -50,6 +51,9 @@ public class Gui {
 		switch(wybranyTemat){
 		case 1:
 			new ZadaniaIF();
+			break;
+		case 2:
+			new ZadaniaSWITCH();
 			break;
 		}
 	}
