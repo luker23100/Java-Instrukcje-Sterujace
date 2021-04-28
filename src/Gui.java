@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+import InstrukcjeZadania.ZadaniaFOR;
 import InstrukcjeZadania.ZadaniaIF;
 import InstrukcjeZadania.ZadaniaSWITCH;
 import InstrukcjeZadania.ZadaniaWHILE;
@@ -58,6 +59,9 @@ public class Gui {
 			break;
 		case 3:
 			new ZadaniaWHILE();
+			break;
+		case 5:
+			new ZadaniaFOR();
 			break;
 		}
 	}
